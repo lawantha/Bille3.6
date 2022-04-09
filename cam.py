@@ -4,11 +4,11 @@ import imutils as imutils
 import sys
 
 cap = cv2.VideoCapture(1, cv2.CAP_DSHOW)
-cap.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0)
-cap.set(cv2.CAP_PROP_EXPOSURE, -5)
-cap.set(cv2.CAP_PROP_BRIGHTNESS, 100)
-cap.set(cv2.CAP_PROP_AUTO_WB, 0)
-cap.set(cv2.CAP_PROP_TEMPERATURE, 7000)
+# cap.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0)
+# cap.set(cv2.CAP_PROP_EXPOSURE, -5)
+# cap.set(cv2.CAP_PROP_BRIGHTNESS, 100)
+# cap.set(cv2.CAP_PROP_AUTO_WB, 0)
+# cap.set(cv2.CAP_PROP_TEMPERATURE, 7000)
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 700)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 700)
 
